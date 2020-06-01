@@ -1,0 +1,57 @@
+/* Body and HTML Style */
+
+body {
+  background-image: url("../Images/redroses_bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  font-family: 'Euphoria Script', cursive;
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+
+body, html {
+  height: 100%;
+}
+
+/* Nav */
+
+a {
+  color: white !important;
+  margin-right: 10px;
+}
+
+/* Logo */
+
+.logo {
+  margin-left: 30px;
+}
+
+/* Profile Image Style */
+
+.proimage {
+  margin-right: 10px;
+  margin-left: -12px;
+  border-radius: 10px;
+}
+
+/* About Me Section Style */
+
+.about-me {
+  margin-bottom: 50px;
+  font-size: larger;
+}
+
+/* Sticky Footer Design */
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  font-size: small;
+}

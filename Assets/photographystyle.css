@@ -1,0 +1,71 @@
+/* Body and HTML Style */
+
+body {
+  background-image: url("../Images/redroses_bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  font-family: 'Euphoria Script', cursive;
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+
+body, html {
+  height: 100%;
+}
+
+/* Nav */
+
+a {
+  color: white !important;
+  margin-right: 10px;
+}
+
+/* Logo */
+
+.logo {
+  margin-left: 30px;
+}
+
+h2 {
+  margin-bottom: 30px;
+}
+
+/* Style for Cards */
+
+.card {
+  background-color: white;
+  opacity: 0.6;
+  border-radius: 1em;
+}
+
+.card-title, a:hover {
+  color: rgb(81, 81, 81);
+  font-weight: bold;
+}
+
+.card-text {
+  color: rgb(81, 81, 81);
+}
+
+.giphy-comingsoon {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/* Footer Style */
+
+footer {
+  position: fixed;
+  left: 0;
+  top: 10;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  font-size: small;
+}
